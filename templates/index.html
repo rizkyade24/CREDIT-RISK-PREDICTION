@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login Facebook</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Prediction Machine Learning</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="{{ url_for('predict') }}" method="POST">
+                        <div class="form-group">
+                            <label>Kepemilikan Rumah</label>
+                            <input type="text" class="form-control border-input" name="person_home_ownership" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Lama Bekerja</label>
+                            <input type="text" class="form-control border-input" name="person_emp_length" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Tujuan Pinjaman</label>
+                            <input type="text" class="form-control border-input" name="loan_intent" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Nilai Pinjaman</label>
+                            <input type="text" class="form-control border-input" name="loan_grade" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Suku Bunga</label>
+                            <input type="text" class="form-control border-input" name="loan_int_rate" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Persen Pendapatan</label>
+                            <input type="text" class="form-control border-input" name="loan_percent_income" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Default Sejarah</label>
+                            <input type="text" class="form-control border-input" name="cb_person_default_on_file" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Kelompok Umur</label>
+                            <input type="text" class="form-control border-input" name="age_group" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Panjang RIwayat Kredit</label>
+                            <input type="text" class="form-control border-input" name="cb_person_cred_hist_length" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Kelompok Pendapatan</label>
+                            <input type="text" class="form-control border-input" name="income_group" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Kelompok Jumlah Pinjaman</label>
+                            <input type="text" class="form-control border-input" name="loan_amount_group" required>
+                        </div>
+                            <button type="submit" class="btn btn-primary btn-block">Prediksi</button>
+                            <hr>
+                            <div class="text-left">
+                                <h4>Hasil Prediksi : {{ prediction_text }}</h4>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
