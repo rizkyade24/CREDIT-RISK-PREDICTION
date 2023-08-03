@@ -19,9 +19,10 @@ Prediksi Risiko Kredit: Pengguna aplikasi web akan menerima hasil prediksi risik
 
 Manfaat:
 
-Meningkatkan efisiensi proses pengambilan keputusan terkait pemberian kredit.
-Memberikan panduan yang lebih akurat dalam menilai risiko kredit calon peminjam.
-Mengurangi risiko kredit macet dan meningkatkan keamanan portofolio peminjaman.
+1. Meningkatkan efisiensi proses pengambilan keputusan terkait pemberian kredit.<br />
+2. Memberikan panduan yang lebih akurat dalam menilai risiko kredit calon peminjam.<br />
+3. Mengurangi risiko kredit macet dan meningkatkan keamanan portofolio peminjaman.<br />
+
 Dengan proyek ini, diharapkan pengguna dapat dengan lebih cerdas dan efektif dalam mengelola risiko kredit, serta meningkatkan kualitas pengambilan keputusan terkait pemberian kredit kepada calon peminjam.
 
 About Dataset
