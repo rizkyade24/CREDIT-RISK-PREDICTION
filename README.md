@@ -1,6 +1,6 @@
 # 🏦 CREDIT RISK PREDICTION NOTEBOOK 🏦 # Precision=1.0 # Accuracy=0.938
 
-Proyek ini bertujuan untuk mengembangkan model machine learning yang dapat melakukan prediksi terkait risiko kredit pada calon peminjam. Risiko kredit merupakan faktor penting dalam pengambilan keputusan oleh lembaga keuangan, bank, atau perusahaan peminjaman lainnya. Dengan menggunakan data historis peminjam, model akan dilatih untuk mengidentifikasi kemungkinan keterlambatan atau gagal bayar kredit oleh calon peminjam.
+Proyek ini bertujuan untuk mengembangkan model machine learning yang dapat melakukan prediksi terkait risiko kredit pada calon peminjam. Risiko kredit merupakan faktor penting dalam pengambilan keputusan oleh lembaga keuangan, bank, atau perusahaan peminjaman lainnya. Dengan menggunakan data historis peminjam, model akan dilatih untuk mengidentifikasi kelayakan calon kreditur.
 
 Metode:
 
@@ -16,6 +16,7 @@ Penyimpanan Model: Model yang telah dilatih akan disimpan dalam bentuk file pick
 Aplikasi Web: Model yang telah disimpan akan diintegrasikan ke dalam aplikasi web. Pengguna dapat memasukkan data calon peminjam melalui formulir pada aplikasi web dan model akan memberikan prediksi tentang risiko kredit dari calon peminjam tersebut.
 
 Prediksi Risiko Kredit: Pengguna aplikasi web akan menerima hasil prediksi risiko kredit yang ditampilkan secara jelas dan mudah dipahami.
+
 Manfaat:
 
 Meningkatkan efisiensi proses pengambilan keputusan terkait pemberian kredit.
